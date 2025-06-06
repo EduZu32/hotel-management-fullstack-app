@@ -1,0 +1,24 @@
+.contenedor-servicios {
+  padding-bottom: 3%;
+}
+
+.filaServicios {
+  padding-bottom: 3%;
+}
+
+@media (max-width: 768px) {
+  .filaServicios {
+    text-align: center;
+  }
+
+  .filaServicios img {
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+
+  .contenedor-servicios h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}

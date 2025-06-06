@@ -1,0 +1,40 @@
+.intro {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.intro .col {
+  margin-right: 3%;
+}
+
+.intro .imagen {
+  width: 100%;
+  height: auto;
+}
+
+.intro .texto-col {
+  padding-left: 3%;
+}
+
+/* Dispositivos Móviles */
+@media (max-width: 768px) {
+  .intro .row {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .intro .col {
+    margin-right: 0;
+    margin-bottom: 20px; 
+  }
+
+  .intro .texto-col {
+    padding-left: 0;
+    text-align: center; 
+  }
+
+  .intro .imagen {
+    width: 100%;
+    height: auto;
+  }
+}

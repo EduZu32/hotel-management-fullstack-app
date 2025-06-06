@@ -1,0 +1,25 @@
+@media screen and (max-width: 500px){
+    .container{
+        padding-top:20%;
+        align-items:top;
+        margin:auto;
+        padding:auto;
+    }
+}
+    
+@media screen and (min-width:501px) and (max-width:800px){
+    .container{
+        padding-top:15%;
+    }
+}
+@media screen and (min-width:501px){
+    .container{
+        margin:auto;
+        padding:auto;
+        align-items:center;
+    }
+}
+@media screen and (min-width:500px) and (min-height:500px){
+    .container{
+    }
+}

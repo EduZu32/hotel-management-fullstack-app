@@ -1,0 +1,69 @@
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+h2.accordion-header {
+  margin-top: 0!important;
+  margin-bottom: 0!important;
+  padding-top: 0!important;
+}
+
+/* Estilos para el acordeón */
+.accordion-button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.accordion-button {
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+  color: #293E44!important; 
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #528796 !important; 
+  color: white!important;
+}
+
+.accordion-body {
+  margin-top: 0!important;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: "Petrona-Regular";
+}
+
+.accordion-item {
+  margin: 0;
+  padding: 10px; 
+}
+
+
+
+@media (max-width: 768px) {
+  .container {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .accordion-button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+}

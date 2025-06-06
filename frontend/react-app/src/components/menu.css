@@ -1,0 +1,63 @@
+.nav-link {
+  font-family: "Petrona-Regular";
+  color: #293E44;
+  font-size: 1.2rem;
+  background-color: transparent;
+}
+
+.nav-link:hover {
+  color: #528796;
+  background-color: transparent;
+}
+
+.nav-link.active {
+  color: #528796 !important;
+}
+
+.menu {
+  position: relative !important;
+  top: 0;
+  width: 100%;
+  padding: 0;
+}
+
+/* Ícono de usuario */
+.user-icon:hover {
+  content: url("/user-hover.png");
+}
+
+
+/* Dispositivos Móviles y iPad */
+@media (max-width: 913px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .nav-link {
+    margin-bottom: 0.5rem;
+  }
+
+  .user-icon {
+    margin-top: 1rem;
+  }
+}
+
+.logout-absolute {
+  position: absolute;
+  right: 80px; 
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000; 
+}
+
+@media (max-width: 991.98px) {
+  .logout-absolute {
+    position: static;
+    transform: none;
+    margin-top: 10px;
+    text-align: right;
+  }
+}
+

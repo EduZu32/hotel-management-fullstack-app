@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Entornos
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Archivos de prueba o temporales
+bcrypt-test.js
+bcrypt-hash-test.js
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# SO y editores
+.DS_Store
+.idea/
+.vscode/

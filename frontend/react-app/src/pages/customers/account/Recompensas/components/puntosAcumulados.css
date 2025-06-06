@@ -1,0 +1,17 @@
+.puntos {
+  background-color: #ebebeb;
+  width: 50%;
+ text-align: center;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.puntos:hover {
+    background-color: #e5e5e5;
+}
+
+@media (max-width: 768px) { 
+  .puntos {
+ justify-self: center;
+  }
+}

@@ -1,0 +1,17 @@
+.botones-resultado {
+  padding-top: 1rem;
+}
+
+@media (max-width: 913px) {
+h2 {
+  font-size: 1.5rem;
+  margin-top: 15%!important;
+  margin-bottom: 15%!important;
+}
+
+.botones-resultado {
+  padding-top: 0;
+  margin-top: -40px!important;
+}
+
+}

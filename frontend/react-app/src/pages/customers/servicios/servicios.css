@@ -1,0 +1,31 @@
+.cabecera-servicios {
+  margin: 0!important;
+  padding: 0!important;
+background-image: linear-gradient(to right, rgba(215, 198, 189, 0.2), rgba(238, 214, 214, 0.2)),url('src/assets/img/imgServicios/contenido/cabecera-servicios.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center 70%;
+height: 50vh;
+transition: background-position 0.3s ease-out;
+}
+
+@media (max-width: 768px) {
+  .cabecera-servicios .col-8 {
+    width: 100% !important;
+    padding: 3rem 1rem; 
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    min-height: 50vh;
+  }
+  .cabecera-servicios h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+   .habitaciones h1 {
+    text-align: center;
+  }
+}

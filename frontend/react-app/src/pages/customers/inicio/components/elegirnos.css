@@ -1,0 +1,49 @@
+.elegirnos {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.elegirnos h1 {
+  text-align: left; 
+  margin-bottom: 3%;
+}
+
+.elegirnos p {
+  text-align: left; 
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.elegirnos .row {
+  margin-top: 2%;
+}
+
+.elegirnos h4 {
+  margin-top: 20px;
+  text-align: left; 
+}
+
+/* Dispositivos Móviles */
+@media (max-width: 768px) {
+
+  .elegirnos .col-md-4 {
+    width: 100%;
+    text-align: center; 
+    margin-bottom: 2em;
+  }
+
+  .elegirnos img {
+    width: 15%; 
+    margin-bottom: 10px; 
+  }
+
+
+  .elegirnos h1, .elegirnos p {
+    text-align: center;
+  }
+
+  .elegirnos h4 {
+    text-align: center;
+  }
+
+}

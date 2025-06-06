@@ -1,0 +1,45 @@
+.opciones-huespedes {
+  position: absolute;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  top: 45px;
+  width: 250px;
+  z-index: 100;
+}
+
+.opcion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.opcion span {
+  font-size: 16px;
+}
+
+.opcion div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.opcion button {
+  width: 30px;
+  height: 30px;
+  border-radius: 15%;
+  font-size: 20px;
+  display: flex;                
+  justify-content: center;      
+  align-items: center;          
+  text-align: center;      
+
+}  
+
+.btn-listo {
+  width: 100%;
+  margin-top: 10px;
+}
+

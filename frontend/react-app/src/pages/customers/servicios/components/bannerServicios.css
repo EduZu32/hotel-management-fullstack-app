@@ -1,0 +1,52 @@
+.banner-servicios {
+  margin: 0 !important;
+  padding: 4% 0;
+  background-image: linear-gradient(to right, rgba(215, 198, 189, 0.2), rgba(238, 214, 214, 0.2)), url('src/assets/img/imgServicios/contenido/banner-servicios.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.contenido-banner {
+  background-color: rgba(255, 251, 249, 0.65);
+  border-radius: 30px;
+  padding: 2.5em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .banner-servicios {
+    padding: 8% 1rem;
+    background-attachment: scroll;
+    text-align: center;
+  }
+
+  .contenido-banner {
+    padding: 1.5em;
+    text-align: center;
+  }
+
+  .contenido-banner h1 {
+    font-size: 1.8rem;
+  }
+
+  .contenido-banner h3 {
+    font-size: 1.3rem;
+  }
+
+  .contenido-banner p {
+    font-size: 1rem;
+  }
+
+  .contenido-banner .btn {
+    margin: 1rem auto 0 auto; 
+    width: fit-content;
+  }
+}
+

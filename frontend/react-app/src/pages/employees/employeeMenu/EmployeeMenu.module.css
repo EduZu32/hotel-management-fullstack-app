@@ -1,0 +1,26 @@
+/* Asegura buen contraste y visibilidad del texto */
+.carouselTitle{
+    font-weight: regular;
+    color: black;
+    margin: 0;
+  }
+  
+  /* Tamaño responsivo */
+  @media (max-width: 576px) {
+    .carouselTitle{
+      font-size: 1.5rem; /* móviles */
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 992px) {
+    .carouselTitle{
+      font-size: 2.5rem; /* tablets */
+    }
+  }
+  
+  @media (min-width: 993px) {
+    .carouselTitle{
+      font-size: 3.5rem; /* escritorio */
+    }
+  }
+  

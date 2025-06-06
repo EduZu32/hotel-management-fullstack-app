@@ -1,0 +1,58 @@
+.contenedor-contacto {
+  background-image: linear-gradient(to right, rgba(215, 198, 189, 0.2), rgba(238, 214, 214, 0.2)), url('src/assets/img/imgContacto/contacto-banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 60%;
+  transition: background-position 0.3s ease-out;
+  padding-top: 5%;
+  padding-bottom: 5em;
+}
+
+.contenedor-contacto h1 {
+  font-size: 4em;
+  margin-bottom: 1rem;
+}
+
+.contenedor-contacto p {
+  font-size: 1.2em;
+  margin-bottom: 2rem;
+}
+
+.formulario-contacto {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2em;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+  .contenedor-contacto {
+    padding-top: 3em;
+    padding-bottom: 5em;
+    background-position: center 30%;
+  }
+
+   .formulario-contacto input,
+  .formulario-contacto select,
+  .formulario-contacto textarea {
+    font-size: 1rem;
+  }
+
+  .formulario-contacto button {
+    font-size: 1.1rem;
+    padding: 0.6em 2em;
+  }
+
+  .contenedor-contacto h1 {
+    font-size: 2em;
+  }
+
+  .contenedor-contacto p {
+    font-size: 1em;
+  }
+
+  .formulario-contacto {
+    padding: 1.5em;
+  }
+}

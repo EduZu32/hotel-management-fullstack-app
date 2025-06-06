@@ -1,0 +1,53 @@
+
+.formulario-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.formulario-inicio {
+  width: 100%;
+}
+
+.formulario-inicio input {
+  margin-bottom: 1rem;
+}
+
+.formulario-inicio .text-danger {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .formulario-container {
+    padding: 1rem; 
+  }
+
+  .formulario-inicio {
+    padding: 1rem; 
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .formulario-inicio input {
+    font-size: 1rem;
+  }
+
+
+  .formulario-inicio .text-danger {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .formulario-inicio .form-group {
+    margin-bottom: 0.5rem;
+  }
+}
+

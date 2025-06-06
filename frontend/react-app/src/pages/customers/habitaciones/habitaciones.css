@@ -1,0 +1,49 @@
+.habitaciones {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.cabecera-habitaciones {
+  margin: 0!important;
+  padding: 0!important;
+background-image: linear-gradient(to right, rgba(215, 198, 189, 0.2), rgba(238, 214, 214, 0.2)),url('src/assets/img/imgHabitaciones/contenido/cabecera-habitaciones.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center 30%;
+height: 50vh;
+transition: background-position 0.3s ease-out;
+}
+
+@media (max-width: 768px) {
+  .cabecera-habitaciones .col-8 {
+    width: 100% !important;
+    padding: 3rem 1rem; 
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    min-height: 50vh;         
+  }
+  .cabecera-habitaciones h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+   .habitaciones h1 {
+    text-align: center;
+  }
+}
+
+
+.room-container {
+  background-color: #293E44;
+}
+
+.room-container p, 
+.room-container h1, 
+.room-container h2, 
+.room-container h3, 
+.room-container h4 {
+  color: white;
+}

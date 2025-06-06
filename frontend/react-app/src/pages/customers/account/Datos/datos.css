@@ -1,0 +1,28 @@
+.container-datos {
+ margin-left: 0!important;
+position: static;
+}
+
+.dato {
+  background-color: #ebebeb;
+  padding: 2%;
+  margin-top: 0!important;
+  margin-bottom: 0!important;
+  border-radius: 5px;
+}
+
+.dato:hover {
+  background-color: #e5e5e5;
+}
+
+@media (max-width: 768px) {
+.dato {
+  margin-top: 0!important;
+}
+
+p {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+}

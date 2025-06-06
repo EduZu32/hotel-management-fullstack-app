@@ -1,0 +1,23 @@
+.logout-btn {
+  cursor: pointer;
+  display: inline-block;
+position: absolute;
+margin-top: -14px;
+margin-left: -35px;
+}
+
+.logout-icon:hover {
+content: url("/logout-hover.png");
+}
+
+@media (max-width: 913px) {
+
+  .logout-btn {
+    position: static; 
+    margin: 0 auto;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+}
