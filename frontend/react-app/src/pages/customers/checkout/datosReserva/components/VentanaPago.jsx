@@ -111,6 +111,7 @@ try {
       res_observations: guestData.comment || "",
       res_adults: parseInt(reservaData.adults) || 1,
       res_children: parseInt(reservaData.children) || 0,
+      res_bed_preference: guestData.bed_type || "Cama Individual",
       invoiceData: {
         invoice_total_price: total.toFixed(2),
         invoice_details: `Habitación ${selectedRoom.room_type}, ${nights} noches`,

@@ -15,6 +15,7 @@ position: static;
   background-color: #e5e5e5;
 }
 
+
 @media (max-width: 768px) {
 .dato {
   margin-top: 0!important;

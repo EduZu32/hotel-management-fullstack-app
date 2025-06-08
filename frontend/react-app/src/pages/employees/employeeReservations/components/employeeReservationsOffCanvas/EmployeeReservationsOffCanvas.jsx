@@ -64,15 +64,16 @@ export function EmpReservationOffCanvas({ show, onHide, reservation, onUpdate })
       setObservations(data.res_observations || "");
       setRoomId(data.res_room_id || "");
       setClientData({
-        client_id: data.client_id,
-        client_name: data.client_name,
-        client_surname_one: data.client_surname_one,
-        client_surname_two: data.client_surname_two,
-        client_doc_type: data.client_doc_type,
-        client_doc_id: data.client_doc_id,
-        client_telephone: data.client_telephone,
-        client_email: data.client_email
+        client_id: data.client_id || data.guest_id || null,
+        client_name: data.client_name || data.guest_name || "",
+        client_surname_one: data.client_surname_one || data.guest_lastname || "",
+        client_surname_two: data.client_surname_two || "",
+        client_doc_type: data.client_doc_type || "",
+        client_doc_id: data.client_doc_id || "",
+        client_telephone: data.client_telephone || data.guest_phone || "",
+        client_email: data.client_email || data.guest_email || ""
       });
+
     };
 
     fetchReservation();
@@ -110,15 +111,17 @@ export function EmpReservationOffCanvas({ show, onHide, reservation, onUpdate })
         }
       );
 
-      await axios.put(
-        `http://localhost:3000/api/clients/${clientData.client_id}`,
-        clientData,
-        {
-          headers: {
-            Authorization: `Bearer ${token}`
+      if (reservaCargada?.client_id) {
+        await axios.put(
+          `http://localhost:3000/api/clients/${clientData.client_id}`,
+          clientData,
+          {
+              headers: {
+                  Authorization: `Bearer ${token}`
+              }
           }
-        }
-      );
+        );
+    }
 
       setFile1(null);
       setFile2(null);
@@ -236,8 +239,12 @@ export function EmpReservationOffCanvas({ show, onHide, reservation, onUpdate })
             <Col xs="auto">
               <Form.Group>
                 <Form.Label>Preferencia cama:</Form.Label>
-                <Form.Control type="text" defaultValue={reservaCargada?.res_wants_double === 1 ? "Sí" : "No"} readOnly />
-              </Form.Group>
+                <Form.Control
+                  type="text"
+                  defaultValue={reservaCargada?.res_bed_preference || "No"}
+                  readOnly
+                />
+              </Form.Group> 
             </Col>
           </Row>
 

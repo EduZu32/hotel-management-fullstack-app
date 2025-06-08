@@ -87,6 +87,7 @@ const createReservationForGuest = (req, res) => {
     res_observations = "",
     res_adults,
     res_children,
+    res_bed_preference,
     invoiceData = {},
   } = req.body;
 
@@ -173,6 +174,7 @@ const createReservationForGuest = (req, res) => {
                 res_observations,
                 res_adults,
                 res_children,
+                res_bed_preference,
               };
 
               Reservation.create(data, (err, result) => {
@@ -277,6 +279,7 @@ const createReservation = (req, res) => {
     res_observations = "",
     res_adults,
     res_children,
+    res_bed_preference,
     invoiceData = {},
   } = req.body;
 
@@ -344,6 +347,7 @@ const createReservation = (req, res) => {
             res_observations,
             res_adults,
             res_children,
+            res_bed_preference,
           };
 
           Reservation.create(data, (err, result) => {

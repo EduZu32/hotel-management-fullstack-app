@@ -1,8 +1,8 @@
-This repository contains a fullstack web application for hotel management, developed as the final project of the Web Applications Development Degree (DAW).
+# Proyecto Final DAW - Gestión de Hotel
 
-The project includes a complete backend (Node.js + Express + MySQL) and a modern frontend (React + Vite + Bootstrap), following a modular and scalable architecture.
+Este repositorio contiene el desarrollo del proyecto final del segundo año del Grado Superior de Desarrollo de Aplicaciones Web (DAW).
 
-## Estructura
+## Estructura del Proyecto
 
 - `/backend-hotel`: Lógica del servidor con Node.js, Express y Nodemon
   - `src/config`: Configuración de base de datos
@@ -72,7 +72,7 @@ The project includes a complete backend (Node.js + Express + MySQL) and a modern
 Desarrolladora Web Full-Stack | Estudiante de DAW
 
 **Eduard-Ciprian Apatachioae - EduZu32**  
-Desarrollador Web Full-Stack | Estudiante de DAW
+Desarrollador Web y Técnico Informático | Estudiante de DAW
 
 **Daniel Mañogil Lasheras - DanielManogilLasheras**  
 Desarrollador Web Full-Stack | Estudiante de DAW

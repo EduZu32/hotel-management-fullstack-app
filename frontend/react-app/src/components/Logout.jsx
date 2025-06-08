@@ -17,6 +17,7 @@ function Logout() {
       confirmButtonText: 'Sí, cerrar sesión',
       cancelButtonText: 'Cancelar',
       reverseButtons: true,
+      scrollbarPadding: false,
       customClass: {
         confirmButton: 'btn',
         cancelButton: 'btn'
