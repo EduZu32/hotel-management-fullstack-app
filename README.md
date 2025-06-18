@@ -72,7 +72,7 @@ Este repositorio contiene el desarrollo del proyecto final del segundo año del 
 Desarrolladora Web Full-Stack | Estudiante de DAW
 
 **Eduard-Ciprian Apatachioae - EduZu32**  
-Desarrollador Web y Técnico Informático | Estudiante de DAW
+Desarrollador Web Full-Stack | Estudiante de DAW
 
 **Daniel Mañogil Lasheras - DanielManogilLasheras**  
 Desarrollador Web Full-Stack | Estudiante de DAW
